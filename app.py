@@ -90,10 +90,7 @@ st.markdown("""
     margin-top: 0 !important; /* align perfectly inline */
     transition: background 0.2s ease, color 0.2s ease;
 }
-.stForm button:hover {
-    background-color: #000000 !important;  /* darker on hover */
-    color: #ff5555 !important;             /* brighter red */
-}
+
 
 /* ===== Menu Cards ===== */
 .menu-card {
