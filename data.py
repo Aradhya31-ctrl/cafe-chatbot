@@ -13,10 +13,43 @@ HOURS = {
 }
 
 FAQS = [
-    "Wi‑Fi is free for all customers. Ask staff for the password.",
-    "We have vegan, vegetarian, and gluten‑free options.",
-    "We accept cash, UPI, credit and debit cards.",
-    "Average prep time is 5–7 minutes for drinks and 8–12 minutes for food.",
+    {
+        "question": "Do you provide free Wi-Fi?",
+        "answer": "Yes, Wi-Fi is free for all customers. Ask staff for the password."
+    },
+    {
+        "question": "Do you have vegan options?",
+        "answer": "Yes, we have vegan options available on our menu."
+    },
+    {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept cash, UPI, credit cards, and debit cards."
+    },
+    {
+        "question": "How long does food preparation take?",
+        "answer": "Average preparation time is 5–7 minutes for drinks and 8–12 minutes for food items."
+    },
+    {
+        "question": "Do I need a reservation?",
+        "answer": "Reservations are not required for small groups, but we recommend booking in advance for parties of 6 or more."
+    },
+    {
+        "question": "Can I order takeaway or delivery?",
+        "answer": "Yes, we provide takeaway and delivery options for most menu items."
+    },
+    {
+        "question": "Is the café pet-friendly?",
+        "answer": "Yes, pets are welcome in our outdoor seating area."
+    },
+
+    {
+        "question": "Do you offer student discounts?",
+        "answer": "Yes, students get a 10% discount with a valid student ID."
+    },
+    {
+        "question": "Is parking available at the café?",
+        "answer": "Yes, parking is available for both two-wheelers and cars near the café."
+    }
 ]
 
 MENU = [
