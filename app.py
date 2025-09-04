@@ -81,7 +81,7 @@ st.markdown("""
 }
 .stForm button {
     background-color: #212121 !important;   /* dark background */
-    color: #ff3b3b !important;             /* red text */
+    color: #FFFFFF !important;             /* white text */
     border-radius: 10px !important;
     padding: 8px 20px !important;
     font-size: 15px !important;
