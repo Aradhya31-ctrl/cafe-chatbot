@@ -1,5 +1,5 @@
 import streamlit as st
-from data import DOCUMENTS, MENU, HOURS
+from data import DOCUMENTS, MENU, HOURS , FAQS
 from embedding import EmbeddingRetriever
 from generation import RAGAnswerer
 from utils import detect_intent, rupee
@@ -322,3 +322,8 @@ else:
                 <div>{' '.join(f"<span class='tag'>{t}</span>" for t in tags)}</div>
             </div>
             """, unsafe_allow_html=True)
+            st.markdown("#### ❓ Frequently Asked Questions")
+
+for faq in FAQS:
+    with st.expander(faq["question"]):
+         st.write(faq["answer"])
