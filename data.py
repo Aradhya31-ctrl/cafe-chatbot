@@ -102,7 +102,10 @@ def build_documents():
         })
     # FAQs
     for i, f in enumerate(FAQS):
-        docs.append({"id": f"faq::{i}", "text": f})
+        docs.append({
+             "id": f"faq::{i}",
+             "text": f"Q: {f['question']} A: {f['answer']}"
+        })
     return docs
 
 DOCUMENTS = build_documents()
